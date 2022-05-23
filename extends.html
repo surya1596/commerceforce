@@ -1,0 +1,36 @@
+<html>
+<body>
+<script>
+class Person
+{
+constructor(_name,_age)
+{
+this.name=_name;
+this.age=_age;
+}
+describe()
+{
+console.log('i am ${this.name} and i am ${this.age} years old');
+}
+}
+class Programmer extends Person
+{
+constructor(_name,_age,_yearsOfExperiance)
+{
+super(_name,_age);
+this.yearsOfExperiance=_yearsOfExperiance;
+}
+}
+
+let Person1=new Person("Surya",26)
+let Programmer1=new Programmer("Anu",25,3);
+console.log(Person1);
+console.log(Programmer1)
+function developSoftware(programmers)
+{
+	
+}
+
+</script>
+</body>
+</html>
